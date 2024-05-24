@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+.main-container {
+  height: 100%;
+  background-color: rgba(12, 11, 11, 0.211);
+  padding: 10%;
+}
+.app-container {
+  border: 4px solid whites;
+  border-radius: 30px;
+  background-color: white;
+  margin: 2vh 20vh;
+  padding: 20px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.app-header {
+  margin-bottom: 20px;
+}  
+.required:after {
+  content: " *";
+  color: red;
+}
+.form-group {
+  margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+.btn.btn-primary:hover {
+  background-color: lightblue;
+  color: blue;
+}
